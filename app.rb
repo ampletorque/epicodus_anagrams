@@ -1,6 +1,6 @@
 require('sinatra')
 require('sinatra/reloader')
-require('.lib/coin')
+require('.lib/anagram')
 
 get('/') do
   erb(:index)
