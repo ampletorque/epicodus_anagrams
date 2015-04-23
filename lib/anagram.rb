@@ -8,6 +8,6 @@ class String
         outgoing_words.push(in_word)
       end
     end
-    return outgoing_words
+    sentence = outgoing_words.join(", ")
   end
 end
